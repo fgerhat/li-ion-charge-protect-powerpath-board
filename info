@@ -1,0 +1,259 @@
+{
+  "uuid": "ebea4bc7a4d5e92317bf55a03aa91c0f",
+  "path": "Offline/Li-Ion%20Charge%20Protect%20PowerPath",
+  "name": "Li-Ion Charge Protect PowerPath",
+  "content": "Breakout board with microUSB input, BQ24074 and FS312F",
+  "created_at": "2021-09-02 13:00:58",
+  "updated_at": "2021-09-07 09:05:45",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "00777543957227e4c37ad29be74674b4",
+      "title": "Schematic",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "0ad29b9d84e9441d9824a48486cb5fcc": 1,
+        "6445a8f57db8ac3e9df49b5167ee29ec": 1,
+        "46a447ef12c94516fb8f06cc747e0133": 1,
+        "e11771cc556d68362545db4859eeb82e": 1,
+        "ab45d73b3ce7768b06b83c892a65b581": 2,
+        "a22d53ea542a084d41715252b03f75f2": 3,
+        "0806368f73e1232ca543f14a515367b4": 1,
+        "453b6e6e624d32b4e2ddee3598f12b1b": 1,
+        "2f2c771dc147fb0210616ca49e419712": 1,
+        "7cae9ab7891e48f11e47d23718393c41": 1,
+        "b8d1fc945de20f04c72773567a971852": 1,
+        "c01451418699701ce89606f410089b9e": 1,
+        "2658a9c494a24534915c69ab9dbdba4e": 1,
+        "404aa9221ff94de597b8734806e7c74f": 6
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1uF",
+          1,
+          "C0805",
+          "C1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL21B105KBFNNNE",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C28323",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "e11771cc556d68362545db4859eeb82e"
+          }
+        ],
+        [
+          "4.7uF",
+          2,
+          "C0805",
+          "C2,C3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CL21A475KAQNNNE",
+            "BOM_Manufacturer": "SAMSUNG",
+            "BOM_Supplier Part": "C1779",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "ab45d73b3ce7768b06b83c892a65b581"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C0805",
+          "C4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "CC0805KRX7R9BB104",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Supplier Part": "C49678",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "2f2c771dc147fb0210616ca49e419712"
+          }
+        ],
+        [
+          "KT-0603R",
+          1,
+          "LED0603-R-RD",
+          "LED1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "KENTO",
+            "BOM_Manufacturer Part": "KT-0603R",
+            "BOM_Supplier Part": "C2286",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "50dc3b6111d549ddb6686d77ab1ebdd8",
+            "uuid": "0806368f73e1232ca543f14a515367b4"
+          }
+        ],
+        [
+          "FS8205",
+          1,
+          "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR",
+          "Q1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FORTUNE",
+            "BOM_Manufacturer Part": "FS8205",
+            "BOM_Supplier Part": "C32254",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "f3d2a2ecf658447dac746eb15158a989",
+            "uuid": "6445a8f57db8ac3e9df49b5167ee29ec"
+          }
+        ],
+        [
+          "1.8K",
+          3,
+          "R0805",
+          "R1,R2,R4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0805W8F1801T5E",
+            "BOM_Supplier Part": "C17398",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "a22d53ea542a084d41715252b03f75f2"
+          }
+        ],
+        [
+          "6.2K",
+          1,
+          "R0805",
+          "R3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0805W8F6201T5E",
+            "BOM_Supplier Part": "C17767",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "b8d1fc945de20f04c72773567a971852"
+          }
+        ],
+        [
+          "2K",
+          1,
+          "R0805",
+          "R5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0805W8F2001T5E",
+            "BOM_Supplier Part": "C17604",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "453b6e6e624d32b4e2ddee3598f12b1b"
+          }
+        ],
+        [
+          "100",
+          1,
+          "R0805",
+          "R6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "0805W8F1000T5E",
+            "BOM_Supplier Part": "C17408",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "7cae9ab7891e48f11e47d23718393c41"
+          }
+        ],
+        [
+          "BQ24074RGTR",
+          1,
+          "QFN-16_L3.0-W3.0-P0.50-TL-EP1.7",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TI",
+            "BOM_Manufacturer Part": "BQ24074RGTR",
+            "BOM_Supplier Part": "C54313",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "17c514692c5549c7b235395c89b1446f",
+            "uuid": "46a447ef12c94516fb8f06cc747e0133"
+          }
+        ],
+        [
+          "FS312F-G",
+          1,
+          "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FORTUNE",
+            "BOM_Manufacturer Part": "FS312F-G",
+            "BOM_Supplier Part": "C82736",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f3d2a2ecf658447dac746eb15158a989",
+            "uuid": "0ad29b9d84e9441d9824a48486cb5fcc"
+          }
+        ],
+        [
+          "10118194-0001LF",
+          1,
+          "MICRO-USB-SMD_10118194-0001LF",
+          "USB1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C132563",
+            "BOM_Manufacturer": "Amphenol ICC",
+            "BOM_Manufacturer Part": "10118194-0001LF",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "496fa98e2adb455b8c16496fdc5a86f1",
+            "uuid": "2658a9c494a24534915c69ab9dbdba4e"
+          }
+        ]
+      ],
+      "updateTime": 1630998327,
+      "createTime": 1630592432,
+      "histories": [],
+      "created_at": "2021-09-02 16:20:32",
+      "updated_at": "2021-09-07 09:05:27"
+    },
+    {
+      "uuid": "61587681b52ada4a777f8ea42374c40c",
+      "puuid": "ebea4bc7a4d5e92317bf55a03aa91c0f",
+      "title": "PCB_Li-Ion Charge Protect PowerPath",
+      "filename": "PCB_Li-Ion Charge Protect PowerPath.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b60f399a7a7e41848b2be1eb49c79141": 7,
+        "19c77e72422b43b59c26b9fa67af5de4": 6,
+        "496fa98e2adb455b8c16496fdc5a86f1": 1,
+        "2ee8eb13a0124a108e622ce40c0c25a8": 4,
+        "50dc3b6111d549ddb6686d77ab1ebdd8": 1,
+        "f3d2a2ecf658447dac746eb15158a989": 2,
+        "17c514692c5549c7b235395c89b1446f": 1
+      },
+      "BOM": [],
+      "updateTime": 1630998345,
+      "createTime": 1630871355,
+      "histories": [],
+      "created_at": "2021-09-05 21:49:15",
+      "updated_at": "2021-09-07 09:05:45"
+    }
+  ],
+  "sort": [],
+  "title": "Li-Ion Charge Protect PowerPath",
+  "foldername": "Li-Ion Charge Protect PowerPath",
+  "schfilename": "Li-Ion Charge Protect PowerPath.json",
+  "schfilemtime": 1630998327902
+}
