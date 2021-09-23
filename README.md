@@ -20,15 +20,16 @@ Battery over-discharge treshold | 2.9V |
 Battery over-charge treshold | 4.25V | 
 
 ## Electrical connections
-### Battery side (BAT)
-* \[T\] Input for a 10k NTC for monitoring battery cell temperature. NTC connects between this input and battery negative terminal. If temperature monitoring is not used, a 10k resistor must be placed between NTC input and battery negative terminal.
-* \[\+\] Battery positive terminal
-* \[\-\] Battery negative terminal
+<img src=".\Top_view.svg" width=300>
 
 ### Output side (OUT)
 * \[\-\] Output ground
 * \[\+\] Output positive terminal
 * \[P\] *Power good* open-drain output. This terminal pulls to ground when a valid input voltage is connected to the board, otherwise it stays in a high-impedance state. There is no pull-up resistor for this signal on the board. 
+### Battery side (BAT)
+* \[T\] Input for a 10k NTC for monitoring battery cell temperature. NTC connects between this input and battery negative terminal. If temperature monitoring is not used, a 10k resistor must be placed between NTC input and battery negative terminal.
+* \[\+\] Battery positive terminal
+* \[\-\] Battery negative terminal
 
 ## Options
 ### Jumper J1
