@@ -18,3 +18,18 @@ Battery charging current | <500mA |
 Battery charging voltage | 4.2V | 
 Battery over-discharge treshold | 2.9V | 
 Battery over-charge treshold | 4.25V | 
+
+## Electrical connections
+### Battery side (BAT)
+* T: Input for a 10k NTC for monitoring battery cell temperature. NTC connects between this input and battery negative terminal. If temperature monitoring is not used, a 10k resistor must be placed between NTC input and battery negative terminal.
+* \+: Battery positive terminal
+* \-: Battery negative terminal
+
+### Output side (OUT)
+* \-: Output ground
+* \+: Output positive terminal
+* P: *Power good* open-drain output. This terminal pulls to ground when a valid input voltage is connected to the board, otherwise it stays in a high-impedance state. There is no pull-up resistor for this signal on the board. 
+
+## Options
+### Jumper J1
+Bridging J1 (with solder or an 0805 0 ohm resistor) disables the charging safety timers of the BQ24074, which are enabled by default. For more information, see datasheet [section 9.3.5.6](https://www.ti.com/lit/ds/symlink/bq24074.pdf?ts=1632319769679&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ24074#page=25).
